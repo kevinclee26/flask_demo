@@ -9,7 +9,7 @@ from sqlalchemy.ext.automap import automap_base
 app=Flask(__name__)
 CORS(app)
 
-engine=create_engine('sqlite:///assets/data/breweries.sqlite')
+# engine=create_engine('sqlite:///assets/data/breweries.sqlite')
 
 # Base=automap_base()
 # Base.prepare(engine, reflect=True)
