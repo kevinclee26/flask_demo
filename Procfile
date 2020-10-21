@@ -1,1 +1,1 @@
-web: gunicorn dataviz-du.app:app
+web: gunicorn app:app
