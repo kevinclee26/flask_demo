@@ -1,10 +1,10 @@
 from flask import Flask
 from flask import jsonify
 from flask_cors import CORS
-from sqlalchemy.orm import Session
+# from sqlalchemy.orm import Session
 import sqlalchemy
 from sqlalchemy import create_engine
-from sqlalchemy.ext.automap import automap_base
+# from sqlalchemy.ext.automap import automap_base
 
 app=Flask(__name__)
 CORS(app)
