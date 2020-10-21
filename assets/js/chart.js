@@ -1,4 +1,4 @@
-d3.json('http://localhost:5000/breweries').then(function(data){
+d3.json('https://dataviz-du.herokuapp.com/breweries/').then(function(data){
 	// console.log(data);
 	brewery_count={};
 	data.forEach(function(brewery){
